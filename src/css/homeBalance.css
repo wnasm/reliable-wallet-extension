@@ -1,0 +1,405 @@
+.title-home {
+    position: relative;
+    bottom: 90px;
+
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    vertical-align: top;
+    font-weight: 300;
+}
+
+.text-home {
+    text-align: center;
+    color: white;
+    font-size: 14px;
+}
+
+/* .shortAddress-button {
+    position: absolute;
+    left: 1em;
+} */
+
+.shortAddress-button:hover {
+    .copy-icon {
+        color: rgba(255, 192, 203, 0.8) !important;
+    }
+}
+
+.defaultButton {
+    border: 2px solid pink !important;
+    border-radius: 10px;
+    background-color: transparent !important;
+    color: pink !important;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+
+    transition: all 0.15s linear;
+}
+
+.defaultButton:hover {
+    border-color: rgba(255, 192, 203, 0.3) !important;
+    background-color: rgba(255, 192, 203, 0.425) !important;
+    color: rgba(255, 192, 203, 0.8) !important;
+}
+
+.info-home {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap ;
+    /* top: -175px;
+    left: 0em; */
+    justify-content: start;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    /* width: 80%; */
+
+    /* border: 1px solid pink; */
+    border-radius: 10px;
+}
+
+.balance-home {
+    display: flex;
+    padding: 0 10px;
+    margin: 0;
+    font-size: 28px;
+    font-weight: 600;
+
+    text-align: start;
+    /* width: 45%; */
+    height: 100%;
+
+}
+
+.button-home {
+    background: rgba(255, 192, 203, 0.825) !important;
+    border: none;
+
+    margin: 0px 10px;
+}
+
+.button-home:hover {
+    color: black !important;
+    background: rgba(255, 192, 203, 0.625) !important;
+}
+
+.important-home {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.buttonNav-home {
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+    margin-top: 3em;
+}
+
+.qrButton-home {
+    border-radius: 10px;
+}
+
+.sectionBalance-home {
+    display: flex;
+    position: sticky;
+    margin-top: 1.5em;
+
+    
+    padding: 5px;
+    border-bottom: 3px solid rgba(255, 192, 203, 0.5);
+}
+
+.balanceButton-home {
+    margin: 0px 10px;
+    position: relative;
+    padding: 0 5px;
+    background: transparent;
+    border: none;
+    color: white; /* цвет текста */
+    font-weight: 600;
+    font-size: 16px;
+  }
+
+  .balanceButton-home:hover {
+    background: rgba(255, 192, 203, 0.5) !important;
+    color: white !important;
+  }
+  
+  .balanceButton-home::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -9px; /* расстояние от текста до линии */
+    height: 5px; /* толщина линии */
+    background-color: rgb(255, 192, 203, 0.9); /* цвет линии */
+    border-radius: 5px;
+    transform: scaleX(0); /* скрываем линию */
+    transition: transform 0.3s ease; /* анимация */
+  }
+  
+  .balanceButton-home:hover::after,
+  .balanceButton-home:focus::after,
+  .balanceButton-home:active::after {
+    transform: scaleX(1); /* Линия появляется при наведении, фокусе или клике */
+  }
+
+.column-home {
+    height: 100%;
+    width: 95%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+    border-bottom: none;
+}
+
+.column-home::-webkit-scrollbar {
+    width: 0;
+}
+
+
+.selectSection-home {
+    position: relative;
+    height: auto;
+
+    text-align: center;
+    align-content: start;
+}
+
+.token {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0px;
+}
+
+.IconName-home {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.token-image {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+}
+
+.token-icon {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    /* object-fit: cover; */
+}
+
+.token-details {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.token-name {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.network-info {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.network-badge-icon {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+}
+
+.network-name {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.token-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 4px;
+}
+
+.tokenBalance-home {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.tokenPrice-home {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.network-selector {
+  display: flex;
+  justify-content: start;
+  align-items: center;  
+  margin-top: 10px;
+}
+
+.token-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.5em;
+  padding-right: 1em;
+}
+
+.tokenPrice-home {
+  font-size: 0.9em;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.token-image-container {
+    position: relative;
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+}
+
+.token-icon {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.network-icon {
+    position: absolute;
+    bottom: -4px;
+    right: -4px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: white;
+    padding: 2px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.networkIcon-home {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 18px;
+    height: 18px;
+
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.199);
+    padding: .7px;
+  }
+
+/* Добавьте эти стили */
+.content {
+  position: relative;
+  width: 100%;
+}
+
+.send-page, .swap-page {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--your-background-color);
+  z-index: 1;
+}
+
+.transactions-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  /* gap: 10px; */
+  /* padding: 10px; */
+}
+
+.transaction-item {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+  /* gap: 15px; */
+  width: 95%;
+  margin: 10px 0px;
+}
+
+.transaction-icon {
+  font-size: 24px;
+  color: pink;
+}
+
+.transaction-details {
+  flex: 1;
+}
+
+.transaction-type {
+  font-weight: bold;
+  color: white;
+}
+
+.transaction-amount {
+  color: #666;
+}
+
+.transaction-date {
+  font-size: 12px;
+  color: #888;
+}
+
+.transaction-network {
+  font-size: 12px;
+  color: pink;
+}
+
+.transaction-status {
+  font-size: 12px;
+  text-transform: capitalize;
+}
+
+.transaction-status.success {
+  color: #52c41a;
+}
+
+.transaction-status.failed {
+  color: #ff4d4f;
+}
+
+.transaction-status.pending {
+  color: #faad14;
+}
+
+.address-group {
+  position: absolute;
+  left: 1em;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.copy-button {
+  padding: 4px 8px;
+  height: 100%;
+  border: none !important;
+}
+
+.copy-button:hover {
+  color: rgba(255, 192, 203, 0.8) !important;
+}

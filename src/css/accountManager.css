@@ -1,0 +1,100 @@
+.account-list {
+    /* max-height: 300px; */
+    overflow-y: auto;
+    /* margin-bottom: 10px; */
+    scrollbar-width: thin;
+}
+
+.account-list::-webkit-scrollbar {
+    width: 6px;
+}
+
+.account-list::-webkit-scrollbar-track {
+    background: rgba(255, 192, 203, 0.1);
+    border-radius: 3px;
+}
+
+.account-list::-webkit-scrollbar-thumb {
+    background: rgba(255, 192, 203, 0.3);
+    border-radius: 3px;
+}
+
+.account-item {
+    padding: 12px;
+    border-bottom: 1px solid rgba(255, 192, 203, 0.2);
+}
+
+.account-item-meta {
+    flex: 1;
+    min-width: 0;
+    margin-right: 16px;
+}
+
+.account-avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin: 0 !important; 
+}
+
+.account-name {
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.account-address {
+    color: rgba(255, 255, 255, 0.45);
+    font-size: 12px;
+}
+
+.account-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-end;
+}
+
+.secondary-actions {
+    display: flex;
+    gap: 8px;
+}
+
+.account-button {
+    background: rgba(255, 192, 203, 0.1);
+    border: 1px solid rgba(255, 192, 203, 0.2);
+    color: white;
+    font-weight: 600;
+    min-width: 32px;
+    height: 32px;
+    padding: 0 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.account-button:hover {
+    background: rgba(255, 192, 203, 0.2) !important;
+    border-color: rgba(255, 192, 203, 0.3) !important;
+}
+
+.add-account-button {
+    margin-top: 10px;
+    width: 100%;
+    background: rgba(255, 192, 203, 0.1);
+    border: 1px dashed rgba(255, 192, 203, 0.3);
+    color: white;
+    font-weight: 400 !important;
+}
+
+.add-account-button:hover {
+    background: rgba(255, 192, 203, 0.2);
+    border-color: rgba(255, 192, 203, 0.4);
+} 
+
+.buttonActions {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}

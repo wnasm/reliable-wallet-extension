@@ -1,0 +1,30 @@
+.add-network-form {
+  overflow-y: auto;
+  scrollbar-width: none;
+
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.add-network-form .ant-form-item {
+  margin-bottom: 16px;
+}
+
+.add-network-form .ant-input {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: white;
+}
+
+.add-network-form .ant-input:focus,
+.add-network-form .ant-input:hover {
+  border-color: pink;
+}
+
+.add-network-form .ant-form-item-label > label {
+  color: white;
+}
+
+.add-network-form .ant-btn {
+  margin-top: 20px;
+} 

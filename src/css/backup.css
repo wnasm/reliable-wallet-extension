@@ -1,0 +1,55 @@
+.textAreas-backup {
+    position: relative;
+    width: 80%;
+}
+
+.buttons-backup {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Стили для модального окна */
+.backup-modal {
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    max-width: 90% !important;
+    /* width: 320px !important; */
+}
+
+/* Контейнер содержимого модального окна */
+.backup-modal .ant-modal-content {
+    background-color: #282c34 !important;
+    color: white !important;
+    width: 100% !important;
+}
+
+.backup-modal .ant-modal-header {
+    background-color: #282c34 !important;
+    border-bottom: 1px solid rgba(255, 192, 203, 0.2) !important;
+}
+
+.backup-modal .ant-modal-title {
+    color: white !important;
+}
+
+.backup-modal .ant-modal-close {
+    color: white !important;
+}
+
+.backup-modal .ant-modal-footer {
+    border-top: 1px solid rgba(255, 192, 203, 0.2) !important;
+}
+
+/* Стили для обертки модального окна */
+.backup-modal .ant-modal-wrap {
+    position: absolute !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.textArea-backup {
+    resize: none !important;
+}

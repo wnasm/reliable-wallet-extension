@@ -1,0 +1,29 @@
+.icon-button {
+    padding: 7px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 10px;
+}
+
+.icon-button:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.icon-button:active {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.settings-icon {
+    position: absolute;
+    right: 1em;
+}
+
+.back-icon {
+    position: absolute;
+    top: 1em;
+    left: 1em;
+}

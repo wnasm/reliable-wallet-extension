@@ -1,0 +1,133 @@
+.network-avatar img {
+    object-fit: contain;
+}
+
+.switch-settings {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.switch-settings span {
+    color: pink !important;
+    font-size: 16px;    
+    font-weight: 600;
+}
+
+.switchButton-settings {
+    background-color: rgba(255, 192, 203, 0.6);
+}
+
+.ant-switch {
+    background-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+.ant-switch.ant-switch-checked {
+    background-color: pink !important;
+}
+
+.ant-switch-handle::before {
+    background-color: white !important;
+}
+
+.ant-switch {
+    min-width: 44px !important;
+    height: 22px !important;
+}
+
+.ant-switch-handle {
+    width: 18px !important;
+    height: 18px !important;
+}
+
+.ant-switch.ant-switch-checked .ant-switch-handle {
+    inset-inline-start: calc(100% - 20px) !important;
+}
+
+.ant-switch:not(.ant-switch-disabled):hover {
+    background-color: rgba(255, 255, 255, 0.3) !important;
+}
+
+.ant-switch.ant-switch-checked:not(.ant-switch-disabled):hover {
+    background-color: rgba(255, 192, 203, 0.8) !important;
+}
+
+.custom-switch {
+  min-width: 44px !important;
+  height: 22px !important;
+  border-radius: 100px !important;
+}
+
+.custom-switch .ant-switch-handle {
+  width: 18px !important;
+  height: 18px !important;
+  background-color: white !important;
+  border-radius: 50% !important;
+}
+
+.custom-switch .ant-switch-handle::before {
+  border-radius: 50% !important;
+  content: "" !important;
+  position: absolute !important;
+  inset: 0 !important;
+  background-color: white !important;
+  transition: all 0.2s ease-in-out !important;
+}
+
+.custom-switch.ant-switch-checked .ant-switch-handle {
+  inset-inline-start: calc(100% - 20px) !important;
+}
+
+.custom-switch:not(.ant-switch-disabled):hover {
+  opacity: 0.8;
+}
+
+.networksList-settings {
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    justify-self: center;
+
+    overflow-y: auto;
+    height: 400px;
+    max-height: 400px;
+    width: 80%;
+    scrollbar-width: none;
+}
+
+.networksList-settings .ant-list-item {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    margin-bottom: 10px;
+
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.networksList-settings .ant-list-item {
+    display: block;
+}
+
+.networksList-settings .ant-list-item .ant-list-item-meta-content h4,
+.networksList-settings .ant-list-item .ant-list-item-meta-content div  {
+    text-align: center;
+    color: white !important;
+}
+
+.networksList-settings .ant-list-item .ant-list-item-meta-avatar {
+    margin: 5px !important;
+}
+
+.networksList-settings .ant-list-item:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.networksContainer-settings {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.saveButton-settings {
+    display: flex;
+    justify-self: center;
+}

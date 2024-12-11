@@ -1,0 +1,64 @@
+.wallet-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.content-create {
+    display: inline-block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    height: auto;
+}
+
+.customButtonGen {
+    position: relative;
+    bottom: auto;
+    align-self: center;
+    /* transform: translateX(-50%); */
+}
+
+.customButtonCopy {
+    height: 2em;
+}
+
+.alert-gen {
+    border-color: rgba(248, 248, 248, 0.432);
+    color: white;
+}
+
+.customButtonNext {
+    height: 2em;
+    margin-top: .7em;
+}
+
+.customButtonNext:disabled {
+    color: red;
+    height: 2em;
+    margin-top: .7em;
+}
+
+.word-input {
+    border: 2px solid;
+
+}
+
+/* .h1-wallet-gen {
+    position: relative;
+    top: 10px;
+    margin-bottom: 30px;
+    font-size: 20px
+} */
+
+.legal-checkboxes {
+  margin: 16px 0;
+  width: 100%;
+}
+
+.checkbox-row {
+  margin-bottom: 8px;
+}

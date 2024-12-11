@@ -1,0 +1,40 @@
+.token-test {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid rgba(255, 192, 203, 0.8);
+  width: 80%;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.token-test p {
+  margin: 0;
+}
+
+.tokenName-test {
+  margin: 0;
+}
+
+.token-image-container {
+  position: relative;
+  width: 40px;
+  height: 40px;
+}
+
+.image-test {
+  width: 40px;
+  height: 40px;
+}
+
+.networkIcon-test {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.26);
+  padding: 1px;
+}

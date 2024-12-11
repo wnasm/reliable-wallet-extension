@@ -1,0 +1,27 @@
+.avatar-qrcode {
+    position: absolute;
+    display: flex;
+    right: 1em;
+}
+
+.copyButton-qrcode {
+    margin-top: 20px;
+}
+
+.address-qrcode {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.addressCopy-qrcode {
+    position: relative;
+    top: 3em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    margin: 25px;
+    width: 80%;
+}
+
+
