@@ -1,0 +1,37 @@
+{
+  "manifest_version": 3,
+  "name": "Reliable Wallet",
+  "version": "1.0",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "action": {
+    "default_popup": "index.html"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "index.html"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'; connect-src 'self' https://*.polygonscan.com https://*.etherscan.io https://*.optimistic.etherscan.io https://api.arbiscan.io https://api.bscscan.com https://api.coingecko.com https://api.etherscan.io https://arb1.arbitrum.io https://bsc-dataseed1.binance.org https://eth-mainnet.public.blastapi.io https://eth-sepolia.public.blastapi.io https://bsc-testnet-rpc.publicnode.com https://api-sepolia.etherscan.io https://api-testnet.bscscan.com https://min-api.cryptocompare.com https://polygon.llamarpc.com https://optimism.llamarpc.com https://*.blastapi.io https://*.infura.io; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://coin-images.coingecko.com https://cryptologos.cc https://*.polygonscan.com https://*.etherscan.io;"
+  }
+}
