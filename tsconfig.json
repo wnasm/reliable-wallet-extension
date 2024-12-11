@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "jsx": "react", // или "react-jsx" в зависимости от версии
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true,
+      "moduleResolution": "node",
+      "resolveJsonModule": true,
+      "downlevelIteration": true
+    },
+    "include": [
+      "src", // если твой код в src
+      "custom.d.ts" // путь к файлу с декларациями
+    ]
+  }
+  
