@@ -2,11 +2,6 @@
   "manifest_version": 3,
   "name": "Reliable Wallet",
   "version": "1.0",
-  "permissions": [
-    "storage",
-    "activeTab",
-    "scripting"
-  ],
   "background": {
     "service_worker": "background.js"
   },
